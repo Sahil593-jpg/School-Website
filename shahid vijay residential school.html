@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SHAHID VIJAY RESITENTIAL SCHOOL SARTHUA, PATNA</title>
+
+<style>
+:root {
+  --blue: #12366b;
+  --blue2: #2059a5;
+  --gold: #f5bd48;
+  --light: #f3f7fc;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--light);
+  color: #243047;
+  line-height: 1.6;
+}
+header {
+  color: white;
+  text-align: center;
+  padding: 24px 12px;
+  background: linear-gradient(135deg, #102b55, #2867b4);
+  border-bottom: 5px solid var(--gold);
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+header h1 {
+  font-size: 23px;
+  margin: 12px auto 5px;
+}
+header p { margin: 5px; }
+nav {
+  background: #0c2446;
+  padding: 10px 5px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 6px 9px;
+  font-size: 14px;
+}
+nav a:hover { color: var(--gold); }
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 14px;
+}
+.hero {
+  background: white;
+  padding: 28px 18px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 3px 15px #102b5510;
+}
+.hero h2 { color: var(--blue); }
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  margin: 5px 3px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  background: var(--blue2);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.gold-btn {
+  background: var(--gold);
+  color: #17243a;
+}
+section { margin: 25px 0; scroll-margin-top: 65px; }
+.section-title {
+  color: var(--blue);
+  text-align: center;
+  margin-bottom: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 15px;
+}
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #12366b12;
+}
+.stat {
+  text-align: center;
+  border-top: 4px solid var(--gold);
+}
+.stat strong {
+  display: block;
+  font-size: 30px;
+  color: var(--blue);
+}
+.teacher { text-align: center; }
+.teacher img {
+  width: 145px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #e7edf6;
+  border: 3px solid #e0b449;
+}
+.teacher h3 { margin-bottom: 5px; color: var(--blue); }
+.tag {
+  display: inline-block;
+  background: #eaf1fc;
+  color: #17447f;
+  padding: 4px 9px;
+  margin: 3px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 4px;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font: inherit;
+  background: white;
+}
+textarea { min-height: 80px; resize: vertical; }
+.notice {
+  background: #fff5d9;
+  border-left: 4px solid #e6a61b;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+footer {
+  background: #0c2446;
+  color: white;
+  text-align: center;
+  padding: 22px 12px;
+  margin-top: 30px;
+}
+footer a { color: #ffda7d; }
+@media (max-width: 480px) {
+  header h1 { font-size: 19px; }
+  nav a { padding: 5px; font-size: 12px; }
+  .container { padding: 14px 10px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img class="logo" src="logo.jpeg"
+       alt="School Logo"
+       onerror="this.style.display='none'">
+
+  <h1>SHAHID VIJAY RESITENTIAL SCHOOL SARTHUA, PATNA</h1>
+  <p>ज्ञान • अनुशासन • सफलता</p>
+  <p>Nursery से Class 5 तक</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">स्कूल</a>
+  <a href="#teachers">शिक्षक</a>
+  <a href="#admission">Admission</a>
+  <a href="#results">Result</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<section id="home" class="hero">
+  <h2>हमारे विद्यालय में आपका स्वागत है</h2>
+  <p>
+    बच्चों के उज्ज्वल भविष्य के लिए गुणवत्तापूर्ण शिक्षा,
+    अनुशासन और बेहतर सीखने का वातावरण।
+  </p>
+  <a class="btn gold-btn" href="#admission">Admission Enquiry</a>
+  <a class="btn" href="#contact">Contact School</a>
+</section>
+
+<section id="about">
+  <h2 class="section-title">विद्यालय की जानकारी</h2>
+  <div class="grid">
+    <div class="card stat">
+      <strong>Nursery–5</strong>
+      कक्षाएँ
+    </div>
+    <div class="card stat">
+      <strong>92</strong>
+      वर्तमान विद्यार्थी
+    </div>
+    <div class="card stat">
+      <strong>4</strong>
+      शिक्षक
+    </div>
+    <div class="card stat">
+      <strong>110</strong>
+      कुल क्षमता
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:15px">
+    <h3>विद्यालय के बारे में</h3>
+    <p><b>प्रधानाचार्य:</b> Rajeev Kumar</p>
+    <p><b>विद्यालय का प्रकार:</b> Private School</p>
+    <p><b>शिक्षा स्तर:</b> Nursery से Class 5</p>
+    <p><b>स्थान:</b> Sarthua, Patna, Bihar</p>
+  </div>
+</section>
+
+<section id="teachers">
+  <h2 class="section-title">हमारे शिक्षक</h2>
+  <div class="grid">
+
+    <div class="card teacher">
+      <img src="principal.jpg" alt="प्रधानाचार्य की फोटो">
+      <h3>Rajeev Kumar</h3>
+      <p><b>प्रधानाचार्य</b></p>
+      <span class="tag">English Grammar</span>
+      <span class="tag">Maths</span>
+      <span class="tag">Science</span>
+    </div>
+
+    <div class="card teacher">
+      <img src="teacher1.jpeg" alt="शिक्षक की फोटो">
+      <h3>Teacher 1</h3>
+      <p><b>शिक्षक</b></p>
+      <span class="tag">SST</span>
+      <span class="tag">Maths</span>
+      <span class="tag">Science</span>
+    </div>
+
+    <div class="card teacher">
+      <img src="teacher2.jpg" alt="शिक्षिका की फोटो">
+      <h3>Teacher 2</h3>
+      <p><b>शिक्षिका</b></p>
+      <span class="tag">Maths</span>
+      <span class="tag">English</span>
+      <span class="tag">Hindi</span>
+    </div>
+
+    <div class="card teacher">
+      <div style="font-size:65px;padding:30px 0">👩‍🏫</div>
+      <h3>Teacher 4</h3>
+      <p>फोटो और विषय की जानकारी जल्द जोड़ी जाएगी।</p>
+    </div>
+
+  <section id="admission">
+  <h2 class="section-title">Admission Enquiry Form</h2>
+
+  <div class="card">
+    <p>विद्यालय में नामांकन की जानकारी के लिए नीचे विवरण भरें।</p>
+
+    <form id="admissionForm">
+      <label for="studentName">विद्यार्थी का नाम *</label>
+      <input id="studentName" name="studentName"
+             required placeholder="विद्यार्थी का पूरा नाम">
+
+      <label for="guardianName">अभिभावक का नाम *</label>
+      <input id="guardianName" name="guardianName"
+             required placeholder="पिता/माता का नाम">
+
+      <label for="className">किस कक्षा में प्रवेश चाहिए? *</label>
+      <select id="className" name="className" required>
+        <option value="">कक्षा चुनें</option>
+        <option>Nursery</option>
+        <option>LKG</option>
+        <option>UKG</option>
+        <option>Class 1</option>
+        <option>Class 2</option>
+        <option>Class 3</option>
+        <option>Class 4</option>
+        <option>Class 5</option>
+      </select>
+
+      <label for="parentPhone">अभिभावक का मोबाइल नंबर *</label>
+      <input id="parentPhone" name="parentPhone"
+             type="tel" inputmode="numeric"
+             pattern="[0-9]{10}" maxlength="10"
+             required placeholder="10 अंकों का मोबाइल नंबर">
+
+      <label for="admissionNote">अन्य जानकारी</label>
+      <textarea id="admissionNote" name="admissionNote"
+                placeholder="अपना सवाल लिखें"></textarea>
+
+      <button class="btn" type="submit">WhatsApp पर पूछताछ भेजें</button>
+    </form>
+
+    <p class="notice">
+      यह फ़ॉर्म WhatsApp में संदेश तैयार करेगा। संदेश भेजने से पहले
+      आपको WhatsApp में Send दबाना होगा।
+    </p>
+  </div>
+</section>
+
+<section id="results">
+  <h2 class="section-title">विद्यार्थी रिज़ल्ट</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>रोल नंबर से रिज़ल्ट</h3>
+      <p>अपना रोल नंबर डालकर रिज़ल्ट खोजें।</p>
+
+      <label for="rollNumber">Roll Number</label>
+      <input id="rollNumber" placeholder="अपना रोल नंबर लिखें">
+
+      <button class="btn" type="button" onclick="searchResult()">
+        रिज़ल्ट खोजें
+      </button>
+      <div id="resultOutput" class="result-output"
+           aria-live="polite"></div>
+    </div>
+
+    <div class="card">
+      <h3>सार्वजनिक रिज़ल्ट</h3>
+      <p>विद्यालय के घोषित रिज़ल्ट देखने के लिए नीचे जाएँ।</p>
+      <button class="btn" type="button" onclick="showPublicResult()">
+        रिज़ल्ट सूचना
+      </button>
+      <div id="publicResultOutput" class="result-output"
+           aria-live="polite"></div>
+    </div>
+  </div>
+
+  <p class="notice">
+    अभी वेबसाइट में वास्तविक रिज़ल्ट डेटा या डेटाबेस कनेक्ट नहीं है।
+    इसलिए यह रिज़ल्ट सेक्शन डेमो है; किसी विद्यार्थी का असली परिणाम
+    इसमें उपलब्ध नहीं होगा। वास्तविक रिज़ल्ट के लिए स्कूल का प्रमाणित
+    डेटा और सुरक्षित बैकएंड जोड़ना आवश्यक है।
+  </p>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">संपर्क करें</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🏫 विद्यालय का पता</h3>
+      <p>SHAHID VIJAY RESITENTIAL SCHOOL SARTHUA, PATNA</p>
+      <p>C6CR+XQ4, Patna, Bihar 801304</p>
+
+      <a class="btn" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&amp;query=C6CR%2BXQ4%2C%20Patna%2C%20Bihar%20801304">
+        Google Maps पर देखें
+      </a>
+    </div>
+
+    <div class="card">
+      <h3>📞 प्रधानाचार्य से संपर्क</h3>
+      <p><b>नाम:</b> Rajeev Kumar</p>
+      <p><b>मोबाइल:</b> +91 62061 39443</p>
+
+      <a class="btn" href="tel:+916206139443">कॉल करें</a>
+
+      <a class="btn" target="_blank" rel="noopener"
+         href="https://wa.me/916206139443">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <h3>SHAHID VIJAY RESITENTIAL SCHOOL SARTHUA, PATNA</h3>
+  <p>ज्ञान • अनुशासन • सफलता</p>
+  <p>Nursery से Class 5 तक</p>
+  <p>© <span id="currentYear"></span> School Portal</p>
+</footer>
+
+<script>
+document.getElementById("currentYear").textContent =
+  new Date().getFullYear();
+
+document.getElementById("admissionForm")
+  .addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const student = document.getElementById("studentName")
+      .value.trim();
+    const guardian = document.getElementById("guardianName")
+      .value.trim();
+    const className = document.getElementById("className")
+      .value;
+    const phone = document.getElementById("parentPhone")
+      .value.trim();
+    const note = document.getElementById("admissionNote")
+      .value.trim();
+
+    if (!/^[0-9]{10}$/.test(phone)) {
+      alert("कृपया 10 अंकों का सही मोबाइल नंबर डालें।");
+      return;
+    }
+
+    const message =
+      "School Admission Enquiry%0A" +
+      "Student Name: " + encodeURIComponent(student) + "%0A" +
+      "Guardian Name: " + encodeURIComponent(guardian) + "%0A" +
+      "Class: " + encodeURIComponent(className) + "%0A" +
+      "Parent Mobile: " + encodeURIComponent(phone) + "%0A" +
+      "Other Information: " + encodeURIComponent(note);
+
+    const whatsappURL =
+      "https://wa.me/916206139443?text=" + message;
+
+    window.open(whatsappURL, "_blank");
+  });
+
+function searchResult() {
+  const roll = document.getElementById("rollNumber")
+    .value.trim();
+  const output = document.getElementById("resultOutput");
+
+  if (!roll) {
+    output.textContent = "कृपया पहले रोल नंबर दर्ज करें।";
+    return;
+  }
+
+  output.textContent =
+    "अभी रिज़ल्ट डेटाबेस कनेक्ट नहीं है। स्कूल से संपर्क करके " +
+    "रोल नंबर " + roll + " का वास्तविक रिज़ल्ट प्राप्त करें।";
+}
+
+function showPublicResult() {
+  document.getElementById("publicResultOutput").textContent =
+    "अभी कोई सार्वजनिक रिज़ल्ट सूची अपलोड नहीं की गई है। " +
+    "स्कूल की ओर से प्रमाणित सूची जारी होने पर यहाँ जोड़ी जा सकती है।";
+}
+</script>
+
+</body>
+</html>
